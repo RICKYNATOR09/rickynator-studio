@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-size: 16px;
+   color: #222;
+   font-family: poppins, sans-serif;
+   letter-spacing: 1px;
+}
+
+header{
+   background-color: rgb(1, 1, 16);
+}
+
+nav{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 0;
+}
+
+nav ul{
+   list-style: none;
+   display: flex;
+   gap: 30px;
+}
+
+nav ul li a{
+   color: #fff;
+   text-decoration: none;
+}
+
+nav .logo img{
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+}
+
+.hero{
+   height: 70vh;
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/hero-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-size: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.hero-box{
+   color: #fff;
+}
+
+.hero-box h1{
+   font-size: 60px;
+   letter-spacing: 2px;
+}
+
+.hero-box p{
+   margin: 15px 0;
+   font-size: 18px;
+}
+
+.btn{
+   color: #fff;
+   text-decoration: none;
+   padding: 12px 24px;
+   border: 1px solid #fff;
+   font-weight: 700;
+   display: inline-block;
+   letter-spacing: 1px;
+   transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+   background-color: #fff;
+   border: 1px solid #222;
+   color: #333;
+   border-radius: 5px;
+}
